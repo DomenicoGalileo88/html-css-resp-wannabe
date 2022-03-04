@@ -68,6 +68,44 @@ img {
   clear: both;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  #steps {
+    background-color: white;
+  }
+
+  /* BLOCCO PERCHE */
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    margin-bottom: 2rem;
+  }
+}
+
+
 @media screen and (max-width: 420px) {
   body {
     background-color: antiquewhite;
