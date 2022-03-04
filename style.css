@@ -70,7 +70,7 @@ img {
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: antiquewhite;
+    background-color: rgba(242, 242, 205, 1);
   }
 
   .row {
@@ -108,7 +108,7 @@ img {
 
 @media screen and (max-width: 420px) {
   body {
-    background-color: antiquewhite;
+    background-color: rgba(242, 242, 205, 1);
   }
 
   h1 {
